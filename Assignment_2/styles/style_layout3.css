@@ -1,0 +1,65 @@
+
+.card2_v2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+  }
+
+.card5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    right: 285px;
+
+  }
+  
+.card6 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    left: -120px;
+    bottom: 150px;
+    transform: rotate(-20deg);
+  }
+
+.card1_child {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    height: 60px;
+    width: 30%;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: grey;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    position: relative;
+    right: 50px;
+    top: -250px;
+}
+
+.card4 {
+    position: relative;
+    right: 285px;
+}
+
