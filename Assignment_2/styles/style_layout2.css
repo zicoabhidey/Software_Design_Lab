@@ -3,8 +3,6 @@
   padding: 0 100px 0 250px;
 }
 
-
-  /* Float four columns side by side */
 .column1 {
   float: left;
   width: 25%;
@@ -17,7 +15,6 @@
   padding: 20px 10px;
 }
 
-/* Style the counter cards */
 .card1, .card2, .card3, .card4 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
