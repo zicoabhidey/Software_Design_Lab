@@ -6,10 +6,11 @@
       <!--a:hover{color:orange;}
       -->
 
+
     </style>
     
   </head>
-  <body bgcolor="yellow" text="#000000" link="#FF0000" vlink="#00FFFF" alink="#FF0000">
+  <body id="body" bgcolor="yellow" text="#000000" link="#FF0000" vlink="#00FFFF" alink="#FF0000">
     <BASEFONT SIZE=3>
     <div align="center">
       <table width="100%">
@@ -29,15 +30,18 @@
         </tr>
       </table>
     </div>
+    <button onclick="sayHello()">Say Hello</button>
+    <p id="test2"></p>
+    <p id="test"></p>
     <br>
     <table width="100%" cellspacing="1" cellpadding="5" bgcolor="#000000">
       <tr valign="middle" bgcolor="#000000">
         <td colspan="4" align="center">
           <img src="./assets/img/srubanner4a-350.jpg" alt="Welcome to the Slide Rule Universe!" width="350" height="145" border="0">
           <br>
-          <b>
-            <font face="Arial,Helvetica,sans-serif" size="5" color="#FFFF00">Welcome to the Slide Rule Universe!</font>
-          </b>
+          <p id="output_text" style="color:red;">
+            Welcome to the Slide Rule Universe!
+          </p>
           <br>
           <br>
           <br>
@@ -302,5 +306,6 @@
             </tr>
           </table>
     </table>
+    <script src="./main.js"></script>
   </body>
 </html>
