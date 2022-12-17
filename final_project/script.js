@@ -32,7 +32,7 @@ let f = new FontFace("Indie Flower", "url(https://fonts.googleapis.com/css2?fami
 
 f.load().then(() => {
   
-
+});
 
 var canvas = document.querySelector('canvas');
 var context = canvas.getContext('2d');
@@ -74,7 +74,7 @@ context.fillText("Stress", canvas.width/2, canvas.height-60);
 context.fillStyle = "white";
 context.fillText("Performance", canvas.width/25, 500);
 
-});
+
 
 const box = document.getElementById('buttonmodal0');
 box.style.position = 'absolute';
