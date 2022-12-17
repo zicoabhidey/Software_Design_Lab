@@ -28,7 +28,7 @@ window.onclick = function(event) {
     }
 }
 
-let f = new FontFace("test", "url(https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap)");
+let f = new FontFace("Indie Flower", "url(https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap)");
 
 f.load().then(() => {
   
